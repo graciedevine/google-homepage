@@ -3,17 +3,30 @@
 
 <head>
   <meta charset="UTF-8">
-  <link href="styles/style.css" rel="stylesheet">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Google</title>
+  <link href="styles/style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="/images/google-favicon.png">
 </head>
 
 <body>
-  <header>
-    <img src="images/google-logo.png">
-    <link rel="shortcut icon" href="/images/google-favicon.png">
-  </header>
+  <main class="main">
+    <img class="logo" img src="images/google-logo.png">
+    <form action="https://google.com/search">
+      <div class="text_input">
+        <input type="text">
+      </div>
+      <div class="search_box">
+        <input type="submit" value="Google Search">
+      </div>
+    </form>
+    <form action="https://www.google.com/doodles/">
+      <div class="lucky">
+        <input type="submit" value="I'm Feeling Lucky">
+      </div>
+    </form>
+  </main>
 
 </body>
 
