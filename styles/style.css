@@ -1,20 +1,25 @@
+.main {
+  margin-top: 15%;
+}
+
 .logo {
   display: block;
-  width: 272px;
-  height: 92px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 26px;
 }
 
-.text_input {
+.text-input {
   text-align: center;
+  border-radius: 25px;
 }
 
-.search_box [type="submit"] {
+.search-button [type="submit"] {
   float: left;
+  margin-left: 40%;
 }
 
-.lucky [type="submit"] {
-  float: right;
+.lucky-button [type="submit"] {
+  /* float: right; */
+  margin-right: 40%;
 }
