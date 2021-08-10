@@ -9,22 +9,26 @@
   margin-bottom: 26px;
 }
 
-.search {
-  text-align: center;
+.search [type="text"] {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   width: 500px;
   height: 35px;
   border-radius: 25px;
-  border: 1px solid gray;
+  border: 1px solid var;
   padding: 5px;
   font-size: 16px;
   font-family: arial, sans-serif;
 }
 
+.search-icon {
+  width: 25px;
+  height: 25px;
+  margin-left: 600px;
+}
+
 .search-button [type="submit"] {
-  text-align: center;
   position: absolute;
   left: 50%;
   transform: translateX(-130%);
@@ -39,13 +43,11 @@
   line-height: 27px;
   height: 36px;
   min-width: 54px;
-  text-align: center;
   cursor: pointer;
   user-select: none;
 }
 
 .lucky-button [type="submit"] {
-  text-align: center;
   position: absolute;
   left: 50%;
   transform: translateX(20%);
@@ -60,7 +62,6 @@
   line-height: 27px;
   height: 36px;
   min-width: 54px;
-  text-align: center;
   cursor: pointer;
   user-select: none;
 }
