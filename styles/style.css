@@ -9,10 +9,18 @@
   margin-bottom: 26px;
 }
 
-.text-input {
+.search {
   text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 500px;
+  height: 35px;
   border-radius: 25px;
-  /* height: 34px; */
+  border: 1px solid gray;
+  padding: 5px;
+  font-size: 16px;
+  font-family: arial, sans-serif;
 }
 
 .search-button [type="submit"] {
@@ -20,7 +28,20 @@
   position: absolute;
   left: 50%;
   transform: translateX(-130%);
-  margin: 20px 0;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 80px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
 }
 
 .lucky-button [type="submit"] {
@@ -28,5 +49,18 @@
   position: absolute;
   left: 50%;
   transform: translateX(20%);
-  margin: 20px 0;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 80px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
 }
