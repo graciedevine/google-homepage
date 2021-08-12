@@ -37,6 +37,34 @@
   text-decoration: none;
 }
 
+.nav-link-round {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.user-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.waffle-menu {
+  border-radius: 50%;
+}
+
+.app-button {
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  background-image: url("//ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+  background-position: -131px -37px;
+  opacity: 0.6;
+}
+
 .logo {
   display: block;
   margin-left: auto;
