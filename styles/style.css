@@ -11,7 +11,7 @@
   box-sizing: border-box;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 50;
 }
 
 .top-right {
@@ -27,9 +27,9 @@
 }
 
 .top {
-  margin-left: 15px;
+  /* margin-left: 15px; */
   color: #222;
-  display: inline-block;
+  /* display: inline-block; */
   padding: 5px;
   margin: 0 5px;
   font-size: 14px;
@@ -56,14 +56,14 @@
   border-radius: 50%;
 }
 
-.app-button {
+/* .app-button {
   width: 32px;
   height: 32px;
   background-color: transparent;
   background-image: url("//ssl.gstatic.com/gb/images/i1_1967ca6a.png");
   background-position: -131px -37px;
   opacity: 0.6;
-}
+} */
 
 .logo {
   display: block;
@@ -79,7 +79,7 @@
   width: 500px;
   height: 34px;
   border-radius: 25px;
-  border: 1px solid #dacbcb;
+  border: 1px solid #e2d4d4;
   padding: 5px;
   font-size: 16px;
   font-family: arial, sans-serif;
@@ -130,3 +130,56 @@
   cursor: pointer;
   user-select: none;
 }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+}
+
+.footer-right {
+  justify-content: flex-start;
+  min-width: 30%;
+  order: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-center {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  order: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-left {
+  justify-content: flex-end;
+  min-width: 30%;
+  order: 3;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-links {
+  color: #70757a;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  /* display: block; */
+  padding: 15px;
+  /* white-space: nowrap; */
+}
+
+/* .carbon-neutral {
+  height: 14px;
+  margin-right: 6px;
+} */
