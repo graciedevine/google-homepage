@@ -89,10 +89,11 @@
   transform: translateX(-50%);
   width: 500px;
   height: 34px;
+  border-radius: 25px;
 }
 
-.search-bar:hover,
-.search-bar:focus-within {
+.search-bar input:hover,
+.search-bar input:focus-within {
   border-color: white;
   box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
 }
@@ -134,10 +135,10 @@
   user-select: none;
 }
 
-.search-button:hover {
+/* .search-button:hover {
   border-color: white;
   box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
-}
+} */
 
 .lucky-button [type="submit"] {
   position: absolute;
