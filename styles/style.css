@@ -92,8 +92,8 @@
   border-radius: 25px;
 }
 
-.search-bar input:hover,
-.search-bar input:focus-within {
+input:hover,
+.search-bar:focus-within {
   border-color: white;
   box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
 }
@@ -135,10 +135,10 @@
   user-select: none;
 }
 
-/* .search-button:hover {
-  border-color: white;
-  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
-} */
+.search-button:hover {
+  border-color: #dadce0;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}
 
 .lucky-button [type="submit"] {
   position: absolute;
@@ -158,6 +158,7 @@
   cursor: pointer;
   user-select: none;
 }
+
 
 .footer {
   position: absolute;
