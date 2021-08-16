@@ -95,9 +95,6 @@
 .search-bar:focus-within {
   border-color: white;
   box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
-  /* border-radius: 25px; */
-  /* width: 500px;
-  height: 34px; */
 }
 
 .search-bar input {
@@ -137,7 +134,7 @@
   user-select: none;
 }
 
-.search-button:hover{
+.search-button:hover {
   border-color: white;
   box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
 }
