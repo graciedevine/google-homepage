@@ -1,5 +1,5 @@
 .main {
-  margin-top: 15%;
+  margin-top: 14%;
 }
 
 .top-left {
@@ -54,15 +54,6 @@
   border-radius: 50%;
 }
 
-/* .app-button {
-  width: 32px;
-  height: 32px;
-  background-color: transparent;
-  background-image: url("//ssl.gstatic.com/gb/images/i1_1967ca6a.png");
-  background-position: -131px -37px;
-  opacity: 0.6;
-} */
-
 .logo {
   display: block;
   margin-left: auto;
@@ -83,25 +74,43 @@
   font-family: arial, sans-serif;
 }
 
-/* .search-icon {
-  width: 25px;
-  height: 25px;
-  display: block;
-  margin-left: 700px;
-  margin-top: 30px;
-} */
+.search-bar {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 500px;
+  height: 34px;
+}
+
+.search-bar input {
+  position: absolute;
+  width: 80%;
+  height: 50%;
+  font-size: 16px;
+  font-family: arial, sans-serif;
+  border-radius: 25px;
+  border: 1px solid #e2d4d4;
+  padding: 1em 4em;
+}
+
+.search-bar-icon {
+  position: absolute;
+  left: 1em;
+  top: 40%;
+  z-index: 100;
+}
 
 .search-button [type="submit"] {
   position: absolute;
   left: 50%;
-  transform: translateX(-130%);
+  transform: translateX(-120%);
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
   border-radius: 4px;
   color: #3c4043;
   font-family: arial, sans-serif;
   font-size: 14px;
-  margin: 80px 4px;
+  margin: 40px 4px;
   padding: 0 16px;
   line-height: 27px;
   height: 36px;
@@ -113,14 +122,14 @@
 .lucky-button [type="submit"] {
   position: absolute;
   left: 50%;
-  transform: translateX(20%);
+  transform: translateX(5%);
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
   border-radius: 4px;
   color: #3c4043;
   font-family: arial, sans-serif;
   font-size: 14px;
-  margin: 80px 4px;
+  margin: 40px 4px;
   padding: 0 16px;
   line-height: 27px;
   height: 36px;
@@ -154,3 +163,10 @@
 .carbon-neutral {
   height: 30px;
 }
+
+/* .search-bar-icon-right {
+  position: absolute;
+  right: 1em;
+  top: 50%;
+  z-index: 100;
+} */

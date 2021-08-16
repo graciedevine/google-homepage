@@ -11,8 +11,7 @@
 </head>
 
 <body>
-  <main class="main">
-    <img class="logo" img src="images/google-logo.png">
+  <header>
     <div class="top-left">
       <a class="top"
         href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
@@ -27,14 +26,21 @@
       <a class="nav-link-round" href="https://github.com/graciedevine/google-homepage"><img class="user-avatar"
           src="images/uranus.jpg"></a>
     </div>
+  </header>
 
-    <!-- <div class="search-icon">
-      <img class="search-icon" src="images/google-search.png">
-    </div> -->
-    <div class="search">
-      <form action="https://google.com/search">
-        <input type="text" name="q">
-    </div>
+  <main class="main">
+    <img class="logo" img src="images/google-logo.png">
+    <form action="https://www.google.com/search" method="get" id="search-form">
+      <div class="search-bar">
+        <div class="search-bar-icon">
+          <img class="google-search" src="images/google-search.png">
+        </div>
+        <input type="text" name="q" class="search-bar-input">
+        <div class="search-bar-icon-right">
+          <img class="google-search" src="images/google-search.png">
+        </div>
+      </div>
+    </form>
     <div class="search-button">
       <input type="submit" value="Google Search">
     </div>
@@ -45,6 +51,7 @@
       </div>
     </form>
   </main>
+
   <footer class="footer">
     <div class="footer-right">
       <a class="footer-links"
