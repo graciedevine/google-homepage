@@ -111,10 +111,10 @@ input:hover,
   z-index: 100;
 }
 
-.search-button [type="submit"] {
+.search-button [type="submit"],
+.lucky-button [type="submit"] {
   position: absolute;
   left: 50%;
-  transform: translateX(-120%);
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
   border-radius: 4px;
@@ -130,23 +130,12 @@ input:hover,
   user-select: none;
 }
 
+.search-button [type="submit"] {
+  transform: translateX(-120%);
+}
+
 .lucky-button [type="submit"] {
-  position: absolute;
-  left: 50%;
   transform: translateX(5%);
-  background-color: #f8f9fa;
-  border: 1px solid #f8f9fa;
-  border-radius: 4px;
-  color: #3c4043;
-  font-family: arial, sans-serif;
-  font-size: 14px;
-  margin: 40px 4px;
-  padding: 0 16px;
-  line-height: 27px;
-  height: 36px;
-  min-width: 54px;
-  cursor: pointer;
-  user-select: none;
 }
 
 .footer {
